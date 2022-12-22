@@ -131,8 +131,10 @@ div.resultBox {
             </div>
         </div>
         <br>
+        <form name="form_file" method="POST" action="/RouteOmILHAM" enctype="multipart/form-data">
         <input type="file" name="inputFile" accept=".csv">
-        <input type="button" name="uploadFile" id="uploadFile" value="Upload" class="btn btn-primary"/>
+        <input type="submit" form="form_upload" class="btn btn-primary"/>
+        </form> 
     </div>
     <!-- Loading -->
     <div class="loader" id="loader">
